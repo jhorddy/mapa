@@ -1,6 +1,6 @@
 # Descripción del Proyecto
 
-## mapa del Perú com indicadores automaticos
+## mapa del Perú con indicadores automaticos
 
 ## Tecnologías Utilizadas:
 - **JavaScript**: Lenguaje principal utilizado para la lógica del juego.
