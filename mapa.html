@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
+       <!-- archivo CSS de la libreria -->
+<link rel="stylesheet" type="text/css" href="mapa.css"> 
+<link rel="stylesheet" type="text/css" href="Leaflet-MiniMap-master/dist/Control.MiniMap.min.css">
+<link rel="stylesheet" type="text/css" href="Leaflet.Legend-master/src/leaflet.legend.css">
+
+    <title>Caja Los Ándes</title> 
+    <center><h1>Visita de sitios donde se concentra mas clientes</h1></center>
+<select name = "select-location" id="select-location">
+<option value="1">Seleccione el departamento donde desea ver los clientes</option>
+<option value="-5.0348769,-78.671777,9z">Amazonas</option>
+<option value="-9.0260256,-77.9947609,9z">Áncash</option> 
+<option value="-13.9924866,-75.5850955">Apurímac</option> 
+<option value="-16.4040513,-71.559654,14z">Arequipa</option> 
+<option value="-13.1630324,-74.2424344">Ayacucho</option> 
+<option value="-7.1606286,-78.5864319">Cajamarca</option> 
+<option value="-12.0039337,-77.2001195">Callao </option>
+<option value="-13.5019252,-72.0403725">Cusco</option> 
+<option value="-12.7827868,-75.0576963">Huancavelica</option> 
+<option value="-9.8911272,-76.6222275">Huánuco</option> 
+<option value="-14.0837403,-75.8282245">Ica</option> 
+<option value="-11.5283198,-75.5163981,9z">Junín</option> 
+<option value="-7.7936249,-79.0405974,9z">La Libertad</option>
+<option value="-6.7059217,-79.9154994,15z">Lambayeque</option> 
+<option value="-11.9936306,-77.1208951">Lima</option> 
+<option value="-3.7600915,-73.3627961">Loreto</option> 
+<option value="-11.5547174,-72.984918">Madre de Dios</option> 
+<option value="-17.1910824,-71.0121789">Moquegua</option> 
+<option value="-10.3116897,-76.5262034">Pasco</option>
+<option value="-5.1971674,-80.7356578">Piura</option> 
+<option value="-15.8439601,-70.0440565">Puno</option> 
+<option value="-11.9836191,-77.1197739">San Martín de Porres</option> 
+<option value="-18.0247961,-70.3065454">Tacna</option> 
+<option value="-3.5633071,-80.4911337">Tumbes</option>
+</select>
+<br><br>
+</head>
+<body> 
+<div id="map"></div>
+
+
+     <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+ crossorigin=""></script>
+<script src="Leaflet-MiniMap-master/dist/Control.MiniMap.min.js"></script>
+<script src="Leaflet.Legend-master/src/leaflet.legend.js"></script>
+<script src="layers/barrios.js"></script> 
+<script src="mapa.js"></script>
+    
+</body>
+</html>
+
+
